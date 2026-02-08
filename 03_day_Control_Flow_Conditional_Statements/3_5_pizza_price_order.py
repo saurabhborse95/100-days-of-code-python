@@ -14,12 +14,15 @@ if size == "S":
     if pepperoni == "Y":
         print("Peperoni +2€")
         pizza_price += 2
-    if size == "M":
-        print("Pizza Size M = 20€")
-        pizza_price = 20
-    elif size == "L":
-        print("Pizza Size L costs 25€")
-        pizza_price = 25
+if size == "M":
+    print("Pizza Size M = 20€")
+    pizza_price = 20
+    if pepperoni == "Y":
+        print("Peperoni +3€")
+        pizza_price += 3
+elif size == "L":
+    print("Pizza Size L costs 25€")
+    pizza_price = 25
 
     if pepperoni == "Y":
         print("Peperoni +3€")
