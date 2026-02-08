@@ -1,0 +1,30 @@
+## Nested If/Else Statements -> Checking multiple if/else Statements
+height = int(input("What is your height in cm? "))
+if height > 120:
+    print("You can ride the roller coaster")
+    age = int(input("Please mention your age: "))
+    if age <=18:
+        print("Please pay 7€")
+    else:
+        print("Please pay 10€")
+else:
+    print("Sorry you cannot ride the roller coaster")
+
+
+
+### Elif Statements -> going for multiple choices
+height = int(input("What is your height in cm? "))
+if height > 120:
+    print("You can ride the roller coaster")
+    age = int(input("Please mention your age: "))
+    if age <= 12:
+        print("Please pay 5€")
+    elif age <= 18:
+        print("Please pay 7€")
+    #
+    #
+    # you can keep going with multiple elifs
+    else:
+        print("Please pay 10€")
+else:
+    print("Sorry you cannot ride the roller coaster")
