@@ -19,5 +19,3 @@ fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Cherries", "Peaches
 dirty_dozens_list_from_list = [fruits, vegetables]
 print(dirty_dozens_list_from_list)          #[['Strawberries', 'Nectarines', 'Apples', 'Grapes', 'Cherries', 'Peaches', 'Pears'], ['Spinach', 'Kale',
                                                 # 'Tomatoes', 'Potatoes', 'Celery']]
-
-
